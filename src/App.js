@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.css";
+
+import Base from "./components/Nav";
+import Lobo from "./components/Animais/Lobo";
+import Leao from "./components/Animais/Leão";
+import Cervo from "./components/Animais/Cervo";
+import Gato from "./components/Animais/Gato";
+import Abelha from "./components/Animais/Abelha";
+import Ovelha from "./components/Animais/Ovelha";
+import Vaca from "./components/Animais/Vaca";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Base} />
+          <Route exact path="/cervo" component={Cervo} />
+          <Route exact path="/abelha" component={Abelha} />
+          <Route exact path="/ovelha" component={Ovelha} />
+          <Route exact path="/gato" component={Gato} />
+          <Route exact path="/lobo" component={Lobo} />
+          <Route exact path="/vaca" component={Vaca} />
+          <Route exact path="/leao" component={Leao} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
