@@ -93,6 +93,36 @@ a {
   background-color: #b07dfb;
 }
 
+.sidenav-home {
+  grid-area: sidenav;
+  background: white;
+  padding: 30px;
+  width: 100%;
+}
+
+.sidenav-home li a {
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 30px 30px auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  transition: 0.1s ease-in-out;
+}
+
+.sidenav-home ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.sidenav-home li a:hover {
+  background-color: #b07dfb;
+}
+
 /* CONTENT */
 
 .content {

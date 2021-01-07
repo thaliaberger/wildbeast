@@ -5,44 +5,45 @@ import Nav from "../Nav";
 import Anuncios from "../Anuncios";
 import Footer from "../Footer";
 
-import lobo1 from "../../images/wolf1.jpg";
-import lobo2 from "../../images/wolf2.jpg";
-import lobo3 from "../../images/wolf3.jpg";
+import abelha1 from "../../images/abelhas/abelha1.jpg";
+import abelha2 from "../../images/abelhas/abelha2.jpg";
+import abelha3 from "../../images/abelhas/abelha3.jpg";
 
 function Abelha() {
   return (
-    <div class="estrutura">
+    <div className="estrutura">
       <Header />
       <Nav />
 
-      <main class="content">
-        <div class="titulo">
+      <main className="content">
+        <div className="titulo">
           <h1>Abelha</h1>
-          <span>da família canis lupus</span>
+          <span>da família apoidea</span>
         </div>
-        <div class="caracteristicas">
+        <div className="caracteristicas">
           <div>
-            <span class="numero">72</span>
-            <span class="rotulo">kg</span>
+            <span className="numero">65</span>
+            <span className="rotulo">mg</span>
           </div>
           <div>
-            <span class="numero">13</span>
-            <span class="rotulo">age</span>
+            <span className="numero">122</span>
+            <span className="rotulo">dias</span>
           </div>
         </div>
-        <p class="col-wide">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos
-          genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico
+        <p className="col-wide">
+          Há mais de 25.000 espécies de abelhas conhecidas em sete famílias
+          biológicas reconhecidas. Elas são encontrados em todos os continentes,
+          exceto a Antártida, em todos os habitats do planeta onde existam
+          plantas de flores polinizadas por insetos.
         </p>
 
-        <img class="img1" src={lobo1} alt="lobo1" />
-        <p class="destaque">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos.
+        <img className="img1" src={abelha1} alt="abelha1" />
+        <p className="destaque">
+          Há mais de 25.000 espécies de abelhas conhecidas em sete famílias
+          biológicas reconhecidas.
         </p>
 
-        <img class="img2" src={lobo2} alt="lobo2" />
+        <img className="img2" src={abelha2} alt="abelha2" />
 
         <p>
           O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
@@ -56,14 +57,14 @@ function Abelha() {
           25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no
           Alasca, Canadá, e na antiga União Soviética.
         </p>
-        <blockquote class="citacao col-wide">
+        <blockquote className="citacao col-wide">
           <p>
             “Há algo no uivar do lobo que tira um homem do aqui e agora e o
             transporta para uma floresta da mente.”
           </p>
         </blockquote>
 
-        <ul class="atributos">
+        <ul className="atributos">
           <li>Surgiu: 12.000 anos</li>
           <li>Tipo: Mamífero</li>
           <li>Idade Média: 13 anos</li>
@@ -72,7 +73,7 @@ function Abelha() {
           <li>Família: Lupus</li>
         </ul>
 
-        <div class="informacoes">
+        <div className="informacoes">
           <p>
             É um sobrevivente da Era do Gelo, originário do Pleistoceno
             Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
@@ -87,7 +88,7 @@ function Abelha() {
           </p>
         </div>
 
-        <img class="col-wide" src={lobo3} alt="lobo3" />
+        <img className="col-wide" src={abelha3} alt="abelha3" />
       </main>
       <Anuncios />
       <Footer />

@@ -5,8 +5,8 @@ import logo from "../images/wildbeast.svg";
 
 function Header() {
   return (
-    <header class="header">
-      <Link to="#" class="logo">
+    <header className="header">
+      <Link to="/" className="logo">
         <img src={logo} alt="wildbeast-logo" />
       </Link>
       <nav>

@@ -5,11 +5,11 @@ import anuncio2 from "../images/anuncio-2.jpg";
 
 function Anuncios() {
   return (
-    <aside class="anuncios">
-      <div class="anuncio-item">
+    <aside className="anuncios">
+      <div className="anuncio-item">
         <img src={anuncio1} alt="anuncio1" />
       </div>
-      <div class="anuncio-item">
+      <div className="anuncio-item">
         <img src={anuncio2} alt="anuncio2" />
       </div>
     </aside>

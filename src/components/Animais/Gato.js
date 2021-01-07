@@ -5,44 +5,44 @@ import Nav from "../Nav";
 import Anuncios from "../Anuncios";
 import Footer from "../Footer";
 
-import lobo1 from "../../images/wolf1.jpg";
-import lobo2 from "../../images/wolf2.jpg";
-import lobo3 from "../../images/wolf3.jpg";
+import gato1 from "../../images/gato1.jpg";
+import gato2 from "../../images/gato2.jpg";
+import gato3 from "../../images/gato3.jpg";
 
 function Gato() {
   return (
-    <div class="estrutura">
+    <div className="estrutura">
       <Header />
       <Nav />
 
-      <main class="content">
-        <div class="titulo">
+      <main className="content">
+        <div className="titulo">
           <h1>Gato</h1>
           <span>da família canis lupus</span>
         </div>
-        <div class="caracteristicas">
+        <div className="caracteristicas">
           <div>
-            <span class="numero">72</span>
-            <span class="rotulo">kg</span>
+            <span className="numero">72</span>
+            <span className="rotulo">kg</span>
           </div>
           <div>
-            <span class="numero">13</span>
-            <span class="rotulo">age</span>
+            <span className="numero">13</span>
+            <span className="rotulo">age</span>
           </div>
         </div>
-        <p class="col-wide">
+        <p className="col-wide">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos
           genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico
         </p>
 
-        <img class="img1" src={lobo1} alt="lobo1" />
-        <p class="destaque">
+        <img className="img1" src={gato1} alt="gato1" />
+        <p className="destaque">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos.
         </p>
 
-        <img class="img2" src={lobo2} alt="lobo2" />
+        <img className="img2" src={gato2} alt="gato2" />
 
         <p>
           O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
@@ -56,14 +56,14 @@ function Gato() {
           25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no
           Alasca, Canadá, e na antiga União Soviética.
         </p>
-        <blockquote class="citacao col-wide">
+        <blockquote className="citacao col-wide">
           <p>
             “Há algo no uivar do lobo que tira um homem do aqui e agora e o
             transporta para uma floresta da mente.”
           </p>
         </blockquote>
 
-        <ul class="atributos">
+        <ul className="atributos">
           <li>Surgiu: 12.000 anos</li>
           <li>Tipo: Mamífero</li>
           <li>Idade Média: 13 anos</li>
@@ -72,7 +72,7 @@ function Gato() {
           <li>Família: Lupus</li>
         </ul>
 
-        <div class="informacoes">
+        <div className="informacoes">
           <p>
             É um sobrevivente da Era do Gelo, originário do Pleistoceno
             Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
@@ -87,7 +87,7 @@ function Gato() {
           </p>
         </div>
 
-        <img class="col-wide" src={lobo3} alt="lobo3" />
+        <img className="col-wide" src={gato3} alt="gato3" />
       </main>
       <Anuncios />
       <Footer />

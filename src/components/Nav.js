@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import cervo from "../images/icones/cervo.svg";
-import vaca from "../images/icones/vaca.svg";
+import touro from "../images/icones/vaca.svg";
 import leao from "../images/icones/leao.svg";
 import abelha from "../images/icones/abelha.svg";
 import ovelha from "../images/icones/ovelha.svg";
@@ -10,7 +10,7 @@ import gato from "../images/icones/gato.svg";
 
 function Nav() {
   return (
-    <nav class="sidenav">
+    <nav className="sidenav">
       <ul>
         <li>
           <Link to="/cervo">
@@ -28,8 +28,8 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/vaca">
-            <img src={vaca} alt="vaca" />
+          <Link to="/touro">
+            <img src={touro} alt="touro" />
           </Link>
         </li>
         <li>
