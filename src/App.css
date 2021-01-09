@@ -97,7 +97,7 @@ a {
   grid-area: sidenav;
   background: white;
   padding: 30px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .sidenav-home li a {
@@ -284,6 +284,36 @@ img {
   border-radius: 5px;
 }
 
+/* CONTATO */
+
+.social-media-logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.social-media-logo {
+  max-width: 80px;
+}
+
+/* SOBRE */
+
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 10%;
+}
+
+.sobre-title {
+  color: #8844ee;
+  margin-bottom: 30px;
+}
+
+.sobre-p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 /* RESPONSIVIDADE */
 
 @media (max-width: 1200px) {
@@ -351,11 +381,52 @@ img {
       "anuncios"
       "footer";
   }
+
+  /* HOME */
+
+  .sidenav-home ul {
+    display: flex;
+  }
+
+  .sidenav-home ul li {
+    flex: 1 0 60px;
+  }
+
+  .sidenav-home {
+    position: relative;
+    padding: 0 30px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .sidenav-home li a {
+    margin: 30px 20px 30px 20px;
+  }
+
+  .sidenav-home::after {
+    content: "➝";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
 }
 
 @media (max-width: 600px) {
   .content {
     grid-template-columns: auto;
+  }
+
+  .social-media-logos {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .social-media-logo {
+    margin-bottom: 20px;
   }
 }
 

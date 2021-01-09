@@ -46,16 +46,16 @@ function Abelha() {
         <img className="img2" src={abelha2} alt="abelha2" />
 
         <p>
-          O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
-          aumentar proporcionalmente com a latitude, como previsto pela teoria
-          de Christian Bergmann. Em geral, a altura, medida a partir dos ombros,
-          varia de 60 a 95 centímetros.
+          Há mais de 25.000 espécies de abelhas conhecidas em sete famílias
+          biológicas reconhecidas. Elas são encontrados em todos os continentes,
+          exceto a Antártida, em todos os habitats do planeta onde existam
+          plantas de flores polinizadas por insetos.
         </p>
         <p>
-          O peso varia geograficamente. Em média, os lobos europeus pesam 38,5
-          kg; os lobos da América do Norte, 36 kg; os lobos indianos e árabes,
-          25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no
-          Alasca, Canadá, e na antiga União Soviética.
+          Há mais de 25.000 espécies de abelhas conhecidas em sete famílias
+          biológicas reconhecidas. Elas são encontrados em todos os continentes,
+          exceto a Antártida, em todos os habitats do planeta onde existam
+          plantas de flores polinizadas por insetos.
         </p>
         <blockquote className="citacao col-wide">
           <p>

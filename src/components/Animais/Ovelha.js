@@ -5,9 +5,9 @@ import Nav from "../Nav";
 import Anuncios from "../Anuncios";
 import Footer from "../Footer";
 
-import lobo1 from "../../images/wolf1.jpg";
-import lobo2 from "../../images/wolf2.jpg";
-import lobo3 from "../../images/wolf3.jpg";
+import ovelha1 from "../../images/ovelha/ovelha1.jpg";
+import ovelha2 from "../../images/ovelha/ovelha2.jpg";
+import ovelha3 from "../../images/ovelha/ovelha3.jpg";
 
 function Ovelha() {
   return (
@@ -18,76 +18,82 @@ function Ovelha() {
       <main className="content">
         <div className="titulo">
           <h1>Ovelha</h1>
-          <span>da família canis lupus</span>
+          <span>da família caprinae</span>
         </div>
         <div className="caracteristicas">
           <div>
-            <span className="numero">72</span>
+            <span className="numero">70</span>
             <span className="rotulo">kg</span>
           </div>
           <div>
-            <span className="numero">13</span>
+            <span className="numero">11</span>
             <span className="rotulo">age</span>
           </div>
         </div>
         <p className="col-wide">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos
-          genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico
+          A ovelha é um mamífero ruminante bovídeo da sub-família Caprinae. O
+          carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou
+          borregos. É um animal de enorme importância econômica como fonte de
+          carne, laticínios, lã e couro.
         </p>
 
-        <img className="img1" src={lobo1} alt="lobo1" />
+        <img className="img1" src={ovelha1} alt="ovelha1" />
         <p className="destaque">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos.
+          É um animal de enorme importância econômica como fonte de carne,
+          laticínios, lã e couro.
         </p>
 
-        <img className="img2" src={lobo2} alt="lobo2" />
+        <img
+          className="img2"
+          src={ovelha2}
+          alt="ovelha2
+      "
+        />
 
         <p>
-          O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
-          aumentar proporcionalmente com a latitude, como previsto pela teoria
-          de Christian Bergmann. Em geral, a altura, medida a partir dos ombros,
-          varia de 60 a 95 centímetros.
+          A ovelha é um mamífero ruminante bovídeo da sub-família Caprinae. O
+          carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou
+          borregos. É um animal de enorme importância econômica como fonte de
+          carne, laticínios, lã e couro.
         </p>
         <p>
-          O peso varia geograficamente. Em média, os lobos europeus pesam 38,5
-          kg; os lobos da América do Norte, 36 kg; os lobos indianos e árabes,
-          25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no
-          Alasca, Canadá, e na antiga União Soviética.
+          A ovelha é um mamífero ruminante bovídeo da sub-família Caprinae. O
+          carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou
+          borregos. É um animal de enorme importância econômica como fonte de
+          carne, laticínios, lã e couro.
         </p>
         <blockquote className="citacao col-wide">
           <p>
-            “Há algo no uivar do lobo que tira um homem do aqui e agora e o
-            transporta para uma floresta da mente.”
+            “É um animal de enorme importância econômica como fonte de carne,
+            laticínios, lã e couro. ”
           </p>
         </blockquote>
 
         <ul className="atributos">
-          <li>Surgiu: 12.000 anos</li>
+          <li>Surgiu: 00.000 anos</li>
           <li>Tipo: Mamífero</li>
-          <li>Idade Média: 13 anos</li>
-          <li>Macho adulto: 80kg</li>
-          <li>Fêmea adulta: 55kg</li>
-          <li>Família: Lupus</li>
+          <li>Idade Média: 11 anos</li>
+          <li>Macho adulto: 160kg</li>
+          <li>Fêmea adulta: 100kg</li>
+          <li>Família: Caprinae</li>
         </ul>
 
         <div className="informacoes">
           <p>
-            É um sobrevivente da Era do Gelo, originário do Pleistoceno
-            Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
-            estudos genéticos reafirmam que o lobo cinzento é ancestral do cão
-            doméstico.
+            A ovelha é um mamífero ruminante bovídeo da sub-família Caprinae. O
+            carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou
+            borregos. É um animal de enorme importância econômica como fonte de
+            carne, laticínios, lã e couro.
           </p>
           <p>
-            É um sobrevivente da Era do Gelo, originário do Pleistoceno
-            Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
-            estudos genéticos reafirmam que o lobo cinzento é ancestral do cão
-            doméstico.
+            A ovelha é um mamífero ruminante bovídeo da sub-família Caprinae. O
+            carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou
+            borregos. É um animal de enorme importância econômica como fonte de
+            carne, laticínios, lã e couro.
           </p>
         </div>
 
-        <img className="col-wide" src={lobo3} alt="lobo3" />
+        <img className="col-wide" src={ovelha3} alt="ovelha3" />
       </main>
       <Anuncios />
       <Footer />

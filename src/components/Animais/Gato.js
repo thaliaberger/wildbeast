@@ -5,9 +5,9 @@ import Nav from "../Nav";
 import Anuncios from "../Anuncios";
 import Footer from "../Footer";
 
-import gato1 from "../../images/gato1.jpg";
-import gato2 from "../../images/gato2.jpg";
-import gato3 from "../../images/gato3.jpg";
+import gato1 from "../../images/gato/gato1.jpg";
+import gato2 from "../../images/gato/gato2.jpg";
+import gato3 from "../../images/gato/gato3.jpg";
 
 function Gato() {
   return (
@@ -18,75 +18,76 @@ function Gato() {
       <main className="content">
         <div className="titulo">
           <h1>Gato</h1>
-          <span>da família canis lupus</span>
+          <span>da família felidae</span>
         </div>
         <div className="caracteristicas">
           <div>
-            <span className="numero">72</span>
+            <span className="numero">4</span>
             <span className="rotulo">kg</span>
           </div>
           <div>
-            <span className="numero">13</span>
+            <span className="numero">16</span>
             <span className="rotulo">age</span>
           </div>
         </div>
+
         <p className="col-wide">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos
-          genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+          ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Nulla at risus.
         </p>
 
         <img className="img1" src={gato1} alt="gato1" />
         <p className="destaque">
-          É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
-          cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+          ligula eu lectus lobortis condimentum.
         </p>
 
         <img className="img2" src={gato2} alt="gato2" />
 
         <p>
-          O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
-          aumentar proporcionalmente com a latitude, como previsto pela teoria
-          de Christian Bergmann. Em geral, a altura, medida a partir dos ombros,
-          varia de 60 a 95 centímetros.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+          ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Nulla at risus.
         </p>
         <p>
-          O peso varia geograficamente. Em média, os lobos europeus pesam 38,5
-          kg; os lobos da América do Norte, 36 kg; os lobos indianos e árabes,
-          25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no
-          Alasca, Canadá, e na antiga União Soviética.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+          ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Nulla at risus.
         </p>
         <blockquote className="citacao col-wide">
           <p>
-            “Há algo no uivar do lobo que tira um homem do aqui e agora e o
-            transporta para uma floresta da mente.”
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+            ligula eu lectus lobortis condimentum.”
           </p>
         </blockquote>
 
         <ul className="atributos">
-          <li>Surgiu: 12.000 anos</li>
+          <li>Surgiu: 00.000 anos</li>
           <li>Tipo: Mamífero</li>
-          <li>Idade Média: 13 anos</li>
-          <li>Macho adulto: 80kg</li>
-          <li>Fêmea adulta: 55kg</li>
-          <li>Família: Lupus</li>
+          <li>Idade Média: 16 anos</li>
+          <li>Macho adulto: 4kg</li>
+          <li>Fêmea adulta: 4kg</li>
+          <li>Família: Felidae</li>
         </ul>
 
         <div className="informacoes">
           <p>
-            É um sobrevivente da Era do Gelo, originário do Pleistoceno
-            Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
-            estudos genéticos reafirmam que o lobo cinzento é ancestral do cão
-            doméstico.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+            ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Nulla at risus.
           </p>
           <p>
-            É um sobrevivente da Era do Gelo, originário do Pleistoceno
-            Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e
-            estudos genéticos reafirmam que o lobo cinzento é ancestral do cão
-            doméstico.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+            ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Nulla at risus.
           </p>
         </div>
-
         <img className="col-wide" src={gato3} alt="gato3" />
       </main>
       <Anuncios />
